@@ -1,0 +1,116 @@
+body {
+    background-color: #003049;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: #780000;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 300px;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.left-side {
+    padding-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-side p {
+    font-size: 40px;
+}
+input[type='text'], input[type='email'], input[type='number'] {
+    width: 350px;
+    height: 70px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    border: none;
+    font-size: 40px;
+    padding-left: 20px;
+    color: #fdf0d5;
+}
+.right-side {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-right: 70px;
+}
+textarea {
+    border-radius: 15px;
+    border: none;
+    font-size: 40px;
+    padding-left: 20px;
+    resize: none;
+}
+.address {
+    font-size: 40px;
+    padding-right: 300px;
+}
+span a {
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-size: 40px;
+    font-style: italic;
+}
+h2 {
+    font-size: 80px;
+    color: #669bbc;
+}
+p {
+    color: #fdf0d5;
+}
+h3 {
+    color:#669bbc;
+    margin-top: 100px;
+}
+input[type='submit'] {
+    width: 170px;
+    height: 70px;
+    font-size: 40px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 15px;
+    background-color: #fdf0d5;
+    font-weight: 700;
+    color: rgb(46, 44, 44);
+}
+.priority label{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #fdf0d5;
+    margin-right: 20px;
+}
+.priority select {
+    width: 550px;
+    height: 70px;
+    font-size: 40px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(46, 44, 44);
+}
+.priority {
+    margin-top: 15px;
+}
+nav a{
+    font-size: 40px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align: right;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+nav {
+    text-align: right;
+    
+}

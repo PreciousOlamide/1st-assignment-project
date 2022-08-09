@@ -1,0 +1,119 @@
+* {
+    /* background:linear-gradient(to right, pink 0%, pink 33%, paleturquoise 33%, paleturquoise 66%, lightcoral 66%, lightcoral 100%); */
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: black;
+
+}
+.overall-style {
+    width: 40%;
+    margin: auto;
+    margin-top: 200px;
+    padding-left: 30px;
+    background-color:#dda15e;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#283618;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+    
+}
+h1 {
+    font-size: 5em;
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+    color: #606c38;
+    margin-bottom: 50px;
+}
+label {
+    display: block;
+    font-size: 4em;
+    margin-bottom: 20px;
+    padding-left: 80px;
+}
+span {
+    display: block;
+}
+input {
+    height: 100px;
+    width: 700px;
+    font-size: 40px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-left: 160px;
+    margin-bottom: 100px;
+    background-color: #fefaf0;
+    border: #606c38 5px solid;
+}
+.span {
+    display: inline;
+}
+.remember-password label {
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 2em;
+    margin-top: 0px;
+    position: relative;
+    bottom: 40px;
+}
+.remember-password input {
+    width: 40px;
+    position:relative;
+    left: 10px;
+}
+.remember-password a{
+    font-size: 2em;
+    position: relative;
+    bottom: 20px;
+    left: 50%;
+    text-decoration: none;
+    color: #283618;
+}
+input[type='submit'] {
+    display: block;
+    font-size: 3em;
+    text-align: center;
+    border: none;
+    width: 300px;
+    height: 80px;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    color: white;
+    background-color: #606c38;
+}
+p {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 30px;
+}
+img {
+    width:100px;
+    height:100px;
+    margin-top: 70px;
+    margin-left: 70px;
+    position: relative;
+    left: 520px;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 50px;
+    color: #283618;
+    text-align: right;
+
+}
+nav {
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 70px;
+}
+.sign-in {
+    font-size: 40px;
+}

@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: white;
+    font-family: 'space mono';
+}
+.about-style {
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 100px;
+}
+.about-img{
+    height: 300px;
+    width: 500px;
+    object-fit: contain;
+}
+.education-style img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    position: relative;
+    bottom: 30px;
+}
+.education-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 150px;
+    margin-bottom: 20px;
+    font-family:'space mono';
+}
+.education-style p {
+    margin-bottom: 10px;
+}
+.edu-type {
+    font-weight:800;
+}
+.job-style img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+.job-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 250px;
+    font-family: 'space mono';
+}
+.job-style p {
+    margin-bottom: 10px;
+}
+.job-type {
+    font-weight: 800;
+}
+.flex-test img {
+    width: 200px;
+    height: 200px;
+}
+.flex-test {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.experience {
+    position: relative;
+    right: 110px;
+}
+.job-dates {
+    position: relative;
+    right: 28px;
+    
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+nav a:hover {
+    color:#900c3e;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-bottom: 50px;
+    margin-top: 7px;
+}
+.about-words {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.about-words p {
+    font-family: 'space mono', monospace;
+    font-style: italic;
+    margin-top: 10px;
+}
+.about-words h1,h3 {
+    font-family: 'space mono';
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.sub-heading {
+    font-size: 30px;
+    font-weight: 600;
+}
+.container {
+    margin: auto;
+    width: max-content;
+    font-family: 'space mono';
+    padding-bottom: 20px;
+}
+li {
+    margin-bottom: 20px;
+    color: #900c3e;
+    list-style: square;
+}
+li span{
+    color: black;
+}
+.slash {
+    color: #900c3e;
+    font-weight: 600;
+}
+h1{
+    color: #900c3e;
+}

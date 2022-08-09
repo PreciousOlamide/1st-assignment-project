@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
+    <title>Register</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><p>About Me</p></a>
+        <a href="register.html"><p>Register</p></a>
+        <a href="login.html"><p>Login</p></a>
+        <a href="contact.html"><p>Contact Us</p></a>
+        <a href="calculator.html" target="_blank"><p>Calculator</p></a>
+    </nav>
+    <div class="container">
+        <h1>REGISTRATION</h1>
+    <form method="POST">
+    
+    <label for="first-name">FIRST NAME:</label>
+    <input type="text" name="first-name" id="first-name">
+    <label for="last-name">LAST NAME:</label>
+    <input type="text" name="last-name" id="last-name" >
+    <label for="phone">PHONE:</label>
+    <input type="text" name="phone" id="phone">
+    <div class="gender">
+    <label for="Gender">GENDER:</label>
+    <select name="gender" id="gender">
+        <option value="female">FEMALE</option>
+        <option value="male">MALE</option>
+        <option value="other">Other</option>
+    </select>
+    </div>
+    <label for="country">COUNTRY:</label>
+    <input type="text" name="country" id="country">
+    <label for="state-province">STATE/PROVINCE:</label>
+    <input type="text" name="state-province" id="state-province">
+    <label for="username">USERNAME:</label>
+    <input type="text" name="username" id="username">
+    <label for="password">PASSWORD:</label>
+    <input type="text" name="password" id="password">
+    <label for="confirm-password">CONFIRM PASSWORD:</label>
+    <input type="text" name="confirm-password" id="confirm-password">
+    <input type="submit">
+    </form>
+    </div>
+</body>
+</html>

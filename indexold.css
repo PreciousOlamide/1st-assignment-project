@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+}
+body {
+    
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #fefae0;
+}
+header {
+    background: url(images/bg.jpg);
+    width: auto;
+    height: 500px;
+    z-index: -1;
+    color: #132a13;
+    text-align: center;
+    border-top: 1px solid #283618;
+    border-bottom: #283618 10px solid;
+}
+header > h1 {
+    font-size: 100px;
+    padding-top: 140px;
+    font-style: italic;
+    
+}
+header > p {
+    font-size: 60px;
+    font-family:monospace;
+    font-weight: 400;
+    margin-top: 50px;
+    
+}
+
+#grid-whole-page {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+    color:#dda15e;
+    margin-right: 50px;
+}
+nav{
+    background-color: black;
+    height: 100px;
+    text-align: right;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-right: 100px;
+
+}
+#sub-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size:45px;
+    
+    
+    margin-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 300px;
+    border-top: #283618 10px solid;
+    border-bottom: #283618 10px solid;
+}
+#sub-grid h2, #sub-grid p, #sub-grid li {
+    
+    padding-right: 35%;
+    list-style:square;
+}
+.type-of-edu {
+    font-style: italic;
+    font-weight: 600;
+}
+.school-name {
+    margin-bottom: 10px;
+}
+#sub-grid h2 {
+    margin-bottom: 20px;
+}
+.hobbies {
+    color:black;
+    font-size: ;
+    background-color: #606c38;
+    height: 100px;
+    padding-left: 0px;
+    
+    
+}
+.hobbies-style p {
+    font-weight: 700;
+}
+.hobbies-style h2{
+    display: block;
+    
+    padding-right: 50px;
+
+}
+.hobbies-style {
+border-left: 50px #283618 solid;
+border-bottom: 50px #606c38 solid;
+
+}
+.about-me {
+    margin-left: 40px;
+    padding-right: 70px;
+    margin-top: 200px;
+    margin-bottom: 120px;
+    padding-left: 250px;
+    
+}
+.about-me h2 {
+    font-size: 6em;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #283618;
+}
+.about-me p {
+    font-size: 60px;
+    padding-right: 50%;
+    
+}
+.hobbies-grid p {
+    font-size: 70px;
+    color:#283618;
+    font-style: italic;
+    padding-left: 100px;
+    
+    
+}
+.hobbies-style h2 {
+    box-sizing: border-box;
+    padding-top: 15px;
+    font-size: 70px;
+}
+.fa-solid {
+    color:#606c38;
+    font-size: 7em;
+    margin-bottom: 100px;
+    padding-left: 100px;
+}
+
+.overall-skills-style  {
+    background-color: #dda15e;
+    margin-top: -50px;
+    border-left: #283618 30px solid;
+    border-bottom: 10px solid #283618;
+    
+}
+#skills-style {
+    box-sizing: border-box;
+    background-color: #fefae0;
+    margin-top: 200px;
+    margin-left: 800px;
+    margin-right: 800px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 100px;
+}
+#skills-style P {
+    font-size: 60px;
+    font-style: italic;
+    color:#132a13;
+    text-align: center;
+    position: relative;
+    top:100px;
+    left: 100px;
+}
+.overall-skills-style h2 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 90px;
+    text-decoration: underline 2px;
+    text-decoration-color:#606c38;
+    font-style: italic;
+}
