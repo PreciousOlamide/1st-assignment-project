@@ -1,4 +1,4 @@
-#Altschool 1st-assignment project
+# Altschool 1st-assignment project  
 This project contains the following:
 1. An ABOUT ME Page
 2. A Contact Page
